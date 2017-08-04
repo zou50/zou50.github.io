@@ -10,6 +10,10 @@
 	box-sizing: inherit;
 }
 
+html {
+	overflow-y: hidden;
+}
+
 a {
 	text-decoration: none;
 }
@@ -59,7 +63,6 @@ hr {
 }
 
 .container {
-	position: absolute;
 
 	display: flex;
 	flex-direction: column;
