@@ -16,11 +16,51 @@ a {
 
 hr {
 	margin: 0 auto;
-	width: 50%;
 	border: 1px solid white;
+
+	animation: 0.8s ease-out expand;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes expand {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes expand-out {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes slide-up {
+	0% {
+		transform: translateY(65vh);
+	}
+	100% {
+		transform: translateY(0vh);
+	}
 }
 
 .container {
+	position: absolute;
+
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -42,7 +82,10 @@ hr {
 
 .text {
 	color: white;
+	cursor: default;
 	padding-bottom: 30px;
+
+	animation: 1.1s ease-out fade-in;
 }
 
 .text h1 {
@@ -70,6 +113,8 @@ hr {
 	font-size: inherit;
 	text-rendering: auto;
 	transition: all 0.3s;
+
+	animation: 0.6s ease-out expand-out;
 }
 
 .icon:hover {
@@ -82,6 +127,10 @@ hr {
 
 .linkedin:before {
 	content: "\f0e1";
+}
+
+.resume {
+	animation: 0.7s ease-out slide-up;
 }
 
 .resume a {
