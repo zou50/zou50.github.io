@@ -10,8 +10,8 @@
 	box-sizing: inherit;
 }
 
-html {
-	overflow-y: hidden;
+body {
+	overflow: hidden;
 }
 
 a {
