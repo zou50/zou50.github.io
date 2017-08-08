@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* Global */
 
 * {
 	margin: 0;
@@ -8,7 +8,7 @@
 
 *, *::after, *::before {
 	box-sizing: inherit;
-}
+}	
 
 a {
 	text-decoration: none;
@@ -21,6 +21,8 @@ hr {
 	animation: 0.8s ease-out expand;
 	animation-fill-mode: forwards;
 }
+
+/* Animations */
 
 @keyframes fade-in {
 	0% {
@@ -61,6 +63,8 @@ hr {
 	}
 }
 
+/* Class */
+
 .container {
 	overflow: hidden;
 
@@ -89,10 +93,6 @@ hr {
 	padding-bottom: 30px;
 
 	animation: 1.1s ease-out fade-in;
-}
-
-.project-text {
-	
 }
 
 .text h1 {
