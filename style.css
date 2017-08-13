@@ -223,13 +223,13 @@ hr {
 	color: white;
 	font-size: 20px;
 
-	animation: 0.8s ease-in fade-in;
+	animation: 0.45s ease-out expand-out;
 }
 
 .gallery-image {
 	height: 60%;
 
-	transition: 0.3s ease-out;
+	transition: 0.2s ease-out;
 }
 
 .gallery-image:hover {
