@@ -183,10 +183,10 @@ hr {
 	display: flex;
 	justify-content: center;
 
+	border-radius: 1px;
 	padding: 15px 75px;
 
 	background-color: white;
-	border-radius: 1px;
 	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
 	color: #4ABDAC;
 
@@ -199,6 +199,7 @@ hr {
 
 .button a:hover {
 	box-shadow: 0 25px 15px -15px rgba(0, 0, 0, 0.3);
+	
 	transform: scale(1.05);
 }
 
