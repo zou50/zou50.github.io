@@ -241,6 +241,18 @@ hr {
 	height: 100%;
 }
 
+.gallery-text {
+	padding: 10px 30px;
+
+	vertical-align: center;
+	font-size: 50px;
+
+	transition: 0.2s ease-out;
+}
+
+.gallery-text:hover {
+	transform: scale(1.3);
+}
 
 
 
