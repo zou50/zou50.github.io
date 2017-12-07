@@ -91,6 +91,9 @@ hr {
 /* Class */
 
 .container {
+	position: fixed;
+	overflow-y: scroll;
+
 	display: flex;
 	flex-direction: column;
 	align-content: center;
